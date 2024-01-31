@@ -2,10 +2,10 @@
 Let's introduce The Metasploit Framework (MSF)
 # Introduction of Framework
 ## Metasploit
-<img src="meta.png" width=80% height="auto"><br>
+<img src="meta.png" width=60% height="auto"><br>
 The metasploit framework is a tool that allows you to test the security of your network and systems by simulating attacks and exploiting vulnerabilities. It is a collaboration between the open source community and Rapid7, a security company. The metasploit framework has a library of exploits, payloads, and utilities that you can use to launch attacks, gain access, and maintain persistence on your targets. You can also write your own modules and scripts to customize your attacks. <br>
 The architecture of metasploit is shown below <br>
-<img src="moduli.jpg" width=80% height="auto"><br>
+<img src="moduli.jpg" width=60% height="auto"><br>
 
 ### We quickly explain these modules:
 1. **Exploit**: An exploit module is a piece of code that takes advantage of a vulnerability in a target system or application. It can execute arbitrary commands, install malware, or create a backdoor for future access.
