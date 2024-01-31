@@ -80,7 +80,7 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
 	7. auxiliary/scanner/http/files_dir (cerca e scarica i file presenti nelle directory del server web)
 	8. auxiliary/scanner/http/http_put (verifica se il server web permette il caricamento di file tramite il metodo HTTP PUT)
 	9. auxiliary/scanner/http/http_login (prova a effettuare il login sul server web tramite una forza bruta basata su una lista di 	   credenziali)
-       10. auxiliary/scanner/http/apache_userdir_enum (enumera le directory degli utenti sul server web Apache tramite il modulo 		    mod_userdir)
+       10. auxiliary/scanner/http/apache_userdir_enum (enumera le directory degli utenti sul server web Apache tramite il modulo 		   mod_userdir)
 
 
 ## MYSQL 3306
