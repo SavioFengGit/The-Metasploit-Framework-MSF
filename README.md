@@ -52,7 +52,7 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
     -x, --execute-command COMMAND    Execute the specified console commands (use ; for multiples)
     -h, --help                       Show this message
 
-# My Personal List of modules for Enumeration:
+# My List of modules for Enumeration:
 ## FTP 21:
 	• use auxiliary/scanner/ftp/ftp_version
 	  set RHOSTS 192.51.147.3
