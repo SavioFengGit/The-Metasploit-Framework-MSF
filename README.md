@@ -20,3 +20,34 @@ The architecture of metasploit is shown below <br>
  
 A payload staged can be more stealthy and flexible than a payload non staged, as it can evade detection by antivirus or firewall software and download different stages depending on the situation. However, a payload non staged can be more reliable and faster than a payload staged, as it does not depend on the availability of the attacker or the network connection.
 
+## Usage: msfconsole [options]
+
+## Common options:
+    -E, --environment ENVIRONMENT    Set Rails environment, defaults to RAIL_ENV environment variable or 'production'
+
+## Database options:
+    -M, --migration-path DIRECTORY   Specify a directory containing additional DB migrations
+    -n, --no-database                Disable database support
+    -y, --yaml PATH                  Specify a YAML file containing database settings
+
+## Framework options:
+    -c FILE                          Load the specified configuration file
+    -v, -V, --version                Show version
+
+## Module options:
+        --[no-]defer-module-loads    Defer module loading unless explicitly asked
+    -m, --module-path DIRECTORY      Load an additional module path
+
+## Console options:
+    -a, --ask                        Ask before exiting Metasploit or accept 'exit -y'
+    -H, --history-file FILE          Save command history to the specified file
+    -l, --logger STRING              Specify a logger to use (StdoutWithoutTimestamps, TimestampColorlessFlatfile, Flatfile, Stderr, Stdout)
+        --[no-]readline
+    -L, --real-readline              Use the system Readline library instead of RbReadline
+    -o, --output FILE                Output to the specified file
+    -p, --plugin PLUGIN              Load a plugin on startup
+    -q, --quiet                      Do not print the banner on startup
+    -r, --resource FILE              Execute the specified resource file (- for stdin)
+    -x, --execute-command COMMAND    Execute the specified console commands (use ; for multiples)
+    -h, --help                       Show this message
+
