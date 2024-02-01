@@ -363,7 +363,7 @@ For the enumeration part of these protocols with NMAP, I direct you to my nmap g
 
 
 
-## Command meterpreter Windows
+## Command meterpreter Windows and Linux
 	• sysinfo (informazioni di sistema)
 	• shell (apre una shell)
 	• getuid (full privilege with NT-WINDOWS )
@@ -405,21 +405,8 @@ For the enumeration part of these protocols with NMAP, I direct you to my nmap g
 	• dir
 	• type flag.txt
 	
-
-## Command meterpreter Linux
-	• sysinfo (informazioni di sistema)
-	• shell (apre una shell)
-	• getuid (full privilegi with NT-WINDOWS )
-	• getprivs (enumera i privilegi che ha l'utente)
-	• background (mette in background la sessione meterpreter = ctrl+z)
-	• ifconfig (le interfaccie)
-	• netstat (ottieni la lista delle porte aperte)
-	• route (ottieni la routing table)
-	• ps (mostra i processi che runnano su windows)
-	• pgrep explorer.exe (cerca il suo pid)
-	• migrate 2176 (migra nel pid)
  
-## Command on Linux
+## Command bash Linux
 	• hostname (trova l'hostname del sistema)
 	• cat /etc/issue (trova il nome distro di linux)
 	• cat /etc/*release (trova la versione di linux)
