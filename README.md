@@ -114,7 +114,7 @@ For learn something more to these protocols, I direct you to my protocols github
 For the enumeration part of these protocols with NMAP, I direct you to my nmap github repository.<br> 
 **https://github.com/SavioFengGit/Nmap-Active-Information-Gathering** <br>
 
-# My Personal List of modules for Exploitation 
+# My List of modules for Exploitation 
 **(use search command with type and platform to search an exploit for specific vulnerability)**
 # Windows Exploitation
 
