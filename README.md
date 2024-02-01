@@ -53,6 +53,9 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
     -h, --help                       Show this message
 
 # My List of modules for Enumeration:
+For learn something more to these protocols, I direct you to my protocols github repository.<br> 
+**https://github.com/SavioFengGit/Protocols-FTP-21-SSH-22-SMB-139-445-MySQL-3306-and-RDP-3389** <br>
+
 ## FTP 21:
 	• use auxiliary/scanner/ftp/ftp_version
 	  set RHOSTS 192.51.147.3
@@ -106,8 +109,10 @@ A payload staged can be more stealthy and flexible than a payload non staged, as
 	• msfconsole 
 	  use auxiliary/scanner/smtp/smtp_enum 
 	  set RHOSTS 192.80.153.3 
-	  exploit (enumera gli utenti rispetto alla wordlist di metasploit esistenti)
+	  exploit (enumera gli utenti rispetto alla wordlist di metasploit esistenti) <br> <br>
 
+For the enumeration part of these protocols with NMAP, I direct you to my nmap github repository.<br> 
+**https://github.com/SavioFengGit/Nmap-Active-Information-Gathering** <br>
 
 # My Personal List of modules for Exploitation 
 **(use search command with type and platform to search an exploit for specific vulnerability)**
